@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{344D50B9-3F84-4D92-B149-87403DA6A563}|Default">
+  <MonoDevelop.Ide.ItemProperties.baka PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.017b0ec57839040a15f762728f710cb6929d2e3e" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="baka/Main.storyboard">
+    <Files>
+      <File FileName="baka/Main.storyboard" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

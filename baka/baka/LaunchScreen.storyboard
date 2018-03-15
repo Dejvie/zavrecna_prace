@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="10027" translatesAutoresizingMaskIntoConstraints="NO" image="images/LunchingScreen.jpg">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0" alpha="0"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CzechTrip" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" id="10454" translatesAutoresizingMaskIntoConstraints="NO" adjustsFontSizeToFit="NO" misplaced="YES">
+                                <rect key="frame" x="0.0" y="184" width="414" height="197"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="72"/>
+                                <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                <constraints>
+                                    <constraint id="10455" firstItem="10454" firstAttribute="height" constant="197"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="10456" translatesAutoresizingMaskIntoConstraints="NO" text="David Petřina (c) 2018">
+                                <rect key="frame" x="0.0" y="695" width="414" height="25"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="10457" firstItem="10456" firstAttribute="height" constant="25"/>
+                                </constraints>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint id="10311" firstItem="10027" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" constant="20"/>
+                            <constraint id="10418" firstItem="Ze5-6b-2t3" firstAttribute="leadingMargin" secondItem="10027" secondAttribute="leading" constant="20"/>
+                            <constraint id="10530" firstItem="10454" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" constant="20"/>
+                            <constraint id="10566" firstItem="Ze5-6b-2t3" firstAttribute="leadingMargin" secondItem="10454" secondAttribute="leading" constant="20"/>
+                            <constraint id="11173" firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="10454" secondAttribute="bottom" constant="338"/>
+                            <constraint id="11245" firstItem="10456" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" constant="20"/>
+                            <constraint id="11281" firstItem="Ze5-6b-2t3" firstAttribute="leadingMargin" secondItem="10456" secondAttribute="leading" constant="20"/>
+                            <constraint id="11317" firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="10456" secondAttribute="bottom" constant="16"/>
+                            <constraint id="12099" firstItem="10027" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom"/>
+                            <constraint id="12170" firstItem="10027" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="images/LunchingScreen.jpg" width="768" height="1024"/>
+        <image name="images/Uvod.jpg" width="1024" height="768"/>
+        <image name="images/monkey.png" width="23" height="29"/>
+    </resources>
+</document>

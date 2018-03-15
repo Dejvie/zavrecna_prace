@@ -1,0 +1,9 @@
+/Users/dave/Projects/baka/baka/bin/iPhone/Release/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Release/mtouch-cache/Link/baka.exe
+/Users/dave/Projects/baka/baka/bin/iPhone/Release/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Release/mtouch-cache/Link/mscorlib.dll
+/Users/dave/Projects/baka/baka/bin/iPhone/Release/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Release/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/dave/Projects/baka/baka/bin/iPhone/Release/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Release/mtouch-cache/Link/System.dll
+/Users/dave/Projects/baka/baka/bin/iPhone/Release/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Release/mtouch-cache/Link/System.Core.dll
+/Users/dave/Projects/baka/baka/bin/iPhone/Release/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Release/mtouch-cache/Link/SQLite-net.dll
+/Users/dave/Projects/baka/baka/bin/iPhone/Release/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Release/mtouch-cache/Link/SQLitePCLRaw.core.dll
+/Users/dave/Projects/baka/baka/bin/iPhone/Release/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Release/mtouch-cache/Link/SQLitePCLRaw.batteries_v2.dll
+/Users/dave/Projects/baka/baka/bin/iPhone/Release/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Release/mtouch-cache/Link/SQLitePCLRaw.provider.sqlite3.dll

@@ -1,0 +1,4 @@
+/Users/dave/Projects/baka/baka/bin/iPhone/Debug/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Debug/mtouch-cache/Link/baka.exe
+/Users/dave/Projects/baka/baka/bin/iPhone/Debug/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/dave/Projects/baka/baka/bin/iPhone/Debug/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/dave/Projects/baka/baka/bin/iPhone/Debug/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Debug/mtouch-cache/Link/System.dll

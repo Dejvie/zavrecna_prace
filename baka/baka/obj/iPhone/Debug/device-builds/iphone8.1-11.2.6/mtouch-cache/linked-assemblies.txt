@@ -1,0 +1,9 @@
+/Users/dave/Projects/baka/baka/bin/iPhone/Debug/device-builds/iphone8.1-11.2.6/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Debug/device-builds/iphone8.1-11.2.6/mtouch-cache/Link/baka.exe
+/Users/dave/Projects/baka/baka/bin/iPhone/Debug/device-builds/iphone8.1-11.2.6/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Debug/device-builds/iphone8.1-11.2.6/mtouch-cache/Link/mscorlib.dll
+/Users/dave/Projects/baka/baka/bin/iPhone/Debug/device-builds/iphone8.1-11.2.6/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Debug/device-builds/iphone8.1-11.2.6/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/dave/Projects/baka/baka/bin/iPhone/Debug/device-builds/iphone8.1-11.2.6/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Debug/device-builds/iphone8.1-11.2.6/mtouch-cache/Link/System.dll
+/Users/dave/Projects/baka/baka/bin/iPhone/Debug/device-builds/iphone8.1-11.2.6/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Debug/device-builds/iphone8.1-11.2.6/mtouch-cache/Link/System.Core.dll
+/Users/dave/Projects/baka/baka/bin/iPhone/Debug/device-builds/iphone8.1-11.2.6/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Debug/device-builds/iphone8.1-11.2.6/mtouch-cache/Link/SQLite-net.dll
+/Users/dave/Projects/baka/baka/bin/iPhone/Debug/device-builds/iphone8.1-11.2.6/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Debug/device-builds/iphone8.1-11.2.6/mtouch-cache/Link/SQLitePCLRaw.core.dll
+/Users/dave/Projects/baka/baka/bin/iPhone/Debug/device-builds/iphone8.1-11.2.6/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Debug/device-builds/iphone8.1-11.2.6/mtouch-cache/Link/SQLitePCLRaw.batteries_v2.dll
+/Users/dave/Projects/baka/baka/bin/iPhone/Debug/device-builds/iphone8.1-11.2.6/baka.app:/Users/dave/Projects/baka/baka/obj/iPhone/Debug/device-builds/iphone8.1-11.2.6/mtouch-cache/Link/SQLitePCLRaw.provider.sqlite3.dll

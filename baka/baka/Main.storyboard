@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="217">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewControllerUvod" sceneMemberID="viewController" title="ÚVOD">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" customColorSpace="sRGB" colorSpace="calibratedRGB" red="0.00392156862745098" green="0.37254901960784315" blue="0.054901960784313725" alpha="1"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="197" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="0.0" y="350" width="414" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32" weight="heavy"/>
+                                <state key="normal" title="HRADY">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <segue id="48325" destination="45086" kind="show"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="15822" firstItem="197" firstAttribute="height" constant="86"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="198" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="0.0" y="450" width="414" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32" weight="heavy"/>
+                                <state key="normal" title="ZÁMKY">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <segue id="135015" destination="71822" kind="show"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="15842" firstItem="198" firstAttribute="height" constant="86"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="199" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="0.0" y="550" width="414" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32" weight="heavy"/>
+                                <state key="normal" title="MAPA">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <segue id="73858" destination="72502" kind="show"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="15862" firstItem="199" firstAttribute="height" constant="86"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="16774" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="0.0" y="650" width="414" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32" weight="heavy"/>
+                                <state key="normal" title="O APLIKACI">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <segue id="73914" destination="72878" kind="show"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="16777" firstItem="16774" firstAttribute="height" constant="86"/>
+                                </constraints>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="17182" translatesAutoresizingMaskIntoConstraints="NO" image="images/Uvod.jpg" misplaced="YES">
+                                <rect key="frame" x="20" y="138" width="374" height="204"/>
+                                <constraints>
+                                    <constraint id="17272" firstItem="17182" firstAttribute="height" constant="204"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint id="15812" firstItem="197" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20"/>
+                            <constraint id="15817" firstItem="8bC-Xf-vdC" firstAttribute="leadingMargin" secondItem="197" secondAttribute="leading" constant="20"/>
+                            <constraint id="15827" firstItem="wfy-db-euE" firstAttribute="top" secondItem="197" secondAttribute="bottom" constant="295"/>
+                            <constraint id="15832" firstItem="198" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20"/>
+                            <constraint id="15837" firstItem="8bC-Xf-vdC" firstAttribute="leadingMargin" secondItem="198" secondAttribute="leading" constant="20"/>
+                            <constraint id="15847" firstItem="wfy-db-euE" firstAttribute="top" secondItem="198" secondAttribute="bottom" constant="195"/>
+                            <constraint id="15852" firstItem="199" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20"/>
+                            <constraint id="15857" firstItem="8bC-Xf-vdC" firstAttribute="leadingMargin" secondItem="199" secondAttribute="leading" constant="20"/>
+                            <constraint id="15867" firstItem="wfy-db-euE" firstAttribute="top" secondItem="199" secondAttribute="bottom" constant="95"/>
+                            <constraint id="16844" firstItem="16774" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20"/>
+                            <constraint id="16853" firstItem="8bC-Xf-vdC" firstAttribute="leadingMargin" secondItem="16774" secondAttribute="leading" constant="20"/>
+                            <constraint id="16911" firstItem="wfy-db-euE" firstAttribute="top" secondItem="16774" secondAttribute="bottom"/>
+                            <constraint id="17254" firstItem="17182" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin"/>
+                            <constraint id="17263" firstItem="17182" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin"/>
+                            <constraint id="17281" firstItem="wfy-db-euE" firstAttribute="top" secondItem="17182" secondAttribute="bottom" constant="380"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonHrady" destination="197" id="name-outlet-197"/>
+                        <outlet property="buttonMapa" destination="199" id="name-outlet-199"/>
+                        <outlet property="buttonZamky" destination="198" id="name-outlet-198"/>
+                        <outlet property="imageUvod" destination="17182" id="name-outlet-17182"/>
+                    </connections>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="227" y="-14"/>
+        </scene>
+        <scene sceneID="216">
+            <objects>
+                <navigationController id="217" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="219">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="302" destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="110571">
+                        <rect key="frame" x="0.0" y="692" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    </toolbar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="220" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-325" y="-15"/>
+        </scene>
+        <scene sceneID="321">
+            <objects>
+                <tableViewController id="322" sceneMemberID="viewController" customClass="SeznamHraduController" title="HRADY" automaticallyAdjustsScrollViewInsets="NO" hasRefreshControl="0" storyboardIdentifier="hradyController" useStoryboardIdentifierAsRestorationIdentifier="YES">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="323">
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="37566" reuseIdentifier="hradyTaskCell">
+                                <rect key="frame" x="0.0" y="72" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="37566" id="37567">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue id="68123" destination="68027" kind="show" identifier="hradSegue"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="322" id="324"/>
+                            <outlet property="delegate" destination="322" id="325"/>
+                        </connections>
+                        <searchBar contentMode="redraw" id="1385" key="tableHeaderView" placeholder="Zkuste vyhledat váš oblíbený hrad...">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </searchBar>
+                        <color key="sectionIndexBackgroundColor" colorSpace="calibratedRGB" red="0.49411764705882355" green="0.27450980392156865" blue="0" alpha="1"/>
+                    </tableView>
+                    <connections>
+                        <outlet property="searchHrady" destination="1385" id="name-outlet-1385"/>
+                        <outlet property="tableSeznamHrady" destination="323" id="name-outlet-323"/>
+                        <outlet property="tabHrady" destination="27362" id="name-outlet-27362"/>
+                        <outlet property="titleHrady" destination="135873" id="name-outlet-135873"/>
+                    </connections>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO" translucent="NO"/>
+                    <tabBarItem key="tabBarItem" title="Hrady" id="27362" selectedImage="images/TabBar/castle.png" image="images/TabBar/castle.png"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationItem title="HRADY" id="135873" key="navigationItem"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="328" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1575" y="-1299"/>
+        </scene>
+        <scene sceneID="1284">
+            <objects>
+                <tableViewController id="1285" sceneMemberID="viewController" customClass="SeznamZamkuController" title="ZÁMKY" storyboardIdentifier="zamkyController" useStoryboardIdentifierAsRestorationIdentifier="YES">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="1286">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="1289" reuseIdentifier="zamkyTaskCell">
+                                <rect key="frame" x="0.0" y="72" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1289" id="1290">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue id="67048" destination="66972" kind="show" identifier="zamekSegue"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="1285" id="1287"/>
+                            <outlet property="delegate" destination="1285" id="1288"/>
+                        </connections>
+                        <searchBar contentMode="redraw" id="1384" key="tableHeaderView" placeholder="Zkuste vyhledat váš oblíbený zámek...">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </searchBar>
+                        <rect key="contentStretch" x="0.0" y="0.0" width="1" height="1"/>
+                    </tableView>
+                    <connections>
+                        <outlet property="searchZamky" destination="1384" id="name-outlet-1384"/>
+                        <outlet property="tabZamky" destination="27422" id="name-outlet-27422"/>
+                        <outlet property="tableSeznamZamky" destination="1286" id="name-outlet-1286"/>
+                        <outlet property="titleZamky" destination="135874" id="name-outlet-135874"/>
+                    </connections>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <tabBarItem key="tabBarItem" id="27422" selectedImage="images/TabBar/palace.png" title="Zámky" image="images/TabBar/palace.png" tag="1"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationItem title="ZÁMKY" id="135874" key="navigationItem"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1291" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1577" y="-501"/>
+        </scene>
+        <scene sceneID="1378">
+            <objects>
+                <viewController id="1379" sceneMemberID="viewController" customClass="ViewControllerMapa" title="MAPA HRADŮ A ZÁMKŮ" storyboardIdentifier="mapaController" useStoryboardIdentifierAsRestorationIdentifier="YES">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1376"/>
+                        <viewControllerLayoutGuide type="bottom" id="1377"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1380">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews/>
+                    </view>
+                    <connections>
+                        <outlet property="tabMapa" destination="45419" id="name-outlet-45419"/>
+                        <outlet property="titleMapa" destination="135875" id="name-outlet-135875"/>
+                    </connections>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <tabBarItem key="tabBarItem" id="45419" title="Mapa" image="images/TabBar/mapa.png" tag="2"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationItem title="MAPA HRADŮ A ZÁMKŮ" id="135875" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1381" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1575" y="310"/>
+        </scene>
+        <scene sceneID="17017">
+            <objects>
+                <viewController id="17018" sceneMemberID="viewController" customClass="ViewControllerOAplikaci" title="O APLIKACI" storyboardIdentifier="oAppController" useStoryboardIdentifierAsRestorationIdentifier="YES">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="17015"/>
+                        <viewControllerLayoutGuide type="bottom" id="17016"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="17019">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="34701" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="24" misplaced="YES">
+                                <rect key="frame" x="60" y="64" width="297" height="672"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <string key="text">Aplikace CzechTrip
+
+CzechTrip slouží jako průvodce po čekých hradech a zámcích, kde máturista základní informace ohledně techto objektů ihned po ruce a k dispozici.
+
+Tato aplikace byla vytvořena v souvislosti s bakalářskou prací na České zemědělské univerzitě v Praze v roce 2018.
+
+Pro informace či kontakt prosím využijte e-mailovou schránku petrina.dave@me.com.</string>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint id="34702" firstItem="34701" firstAttribute="top" secondItem="17015" secondAttribute="bottom"/>
+                            <constraint id="34703" firstItem="34701" firstAttribute="bottom" secondItem="17016" secondAttribute="top"/>
+                            <constraint id="51533" firstItem="17019" firstAttribute="trailingMargin" secondItem="34701" secondAttribute="trailing" constant="37"/>
+                            <constraint id="51534" firstItem="34701" firstAttribute="leading" secondItem="17019" secondAttribute="leadingMargin" constant="40"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <tabBarItem key="tabBarItem" id="27560" title="O aplikaci" image="images/TabBar/about.png" tag="3"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tapAbout" destination="27560" id="name-outlet-27560"/>
+                        <outlet property="titleOAplikaci" destination="135876" id="name-outlet-135876"/>
+                    </connections>
+                    <navigationItem title="O APLIKACI" id="135876" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="17020" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1570" y="1188"/>
+        </scene>
+        <scene sceneID="45085">
+            <objects>
+                <tabBarController id="45086" sceneMemberID="viewController" customClass="TabBarController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="45089">
+                        <rect key="frame" x="0.0" y="687" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue id="46774" destination="322" kind="relationship" relationship="viewControllers"/>
+                        <segue id="46829" destination="1285" kind="relationship" relationship="viewControllers"/>
+                        <segue id="46945" destination="1379" kind="relationship" relationship="viewControllers"/>
+                        <segue id="47002" destination="17018" kind="relationship" relationship="viewControllers"/>
+                    </connections>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="45090" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="-1304"/>
+        </scene>
+        <scene sceneID="66971">
+            <objects>
+                <viewController id="66972" sceneMemberID="viewController" customClass="ZamekDetailViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="66969"/>
+                        <viewControllerLayoutGuide type="bottom" id="66970"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="66973">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Historie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96625" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="28" y="76" width="144" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zajímavosti" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96626" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="204" width="232" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96627" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="0" misplaced="YES">
+                                <rect key="frame" x="30" y="233" width="354" height="72"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96628" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="0" misplaced="YES">
+                                <rect key="frame" x="30" y="98" width="354" height="106"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Návštěvní doba" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96629" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="313" width="262" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leden:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96630" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="335" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Únor:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96631" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="350" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Březen:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96632" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="365" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Květen:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96633" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="395" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duben:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96634" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="380" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Červen:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96635" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="410" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96636" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="96" y="410" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96637" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="96" y="395" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96638" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="96" y="380" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96639" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="96" y="365" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96640" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="96" y="350" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96641" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="96" y="335" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Červenec:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96642" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="190" y="335" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Srpen:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96643" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="190" y="350" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Září:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96644" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="190" y="365" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Říjen:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96645" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="190" y="380" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listopad:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96646" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="190" y="395" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prosinec:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96647" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="190" y="410" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96648" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="256" y="410" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96649" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="256" y="395" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96650" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="256" y="380" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96651" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="256" y="365" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96652" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="256" y="350" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="96653" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="256" y="335" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="97055" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="84" y="455" width="72" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dospělý:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="97056" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="455" width="112" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vstupné" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="97057" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="28" y="434" width="189" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zlevněný:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="97058" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="470" width="112" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="97059" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="84" y="470" width="72" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Souřadnice" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="97060" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="28" y="489" width="227" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="97061" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="509" width="354" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="97062" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="0.0" y="533" width="414" height="203"/>
+                            </mapView>
+                        </subviews>
+                        <constraints>
+                            <constraint id="97882" firstItem="96625" firstAttribute="top" secondItem="66969" secondAttribute="bottom" constant="12"/>
+                            <constraint id="97883" firstItem="96625" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="8"/>
+                            <constraint id="97884" firstItem="66973" firstAttribute="trailingMargin" secondItem="96625" secondAttribute="trailing" constant="222"/>
+                            <constraint id="97885" firstItem="96628" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="97886" firstItem="66973" firstAttribute="trailingMargin" secondItem="96628" secondAttribute="trailing" constant="10"/>
+                            <constraint id="97887" firstItem="96628" firstAttribute="top" secondItem="96625" secondAttribute="bottom" constant="1"/>
+                            <constraint id="97888" firstItem="96626" firstAttribute="top" secondItem="96628" secondAttribute="bottom" constant="15"/>
+                            <constraint id="97889" firstItem="96626" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="97890" firstItem="66973" firstAttribute="trailingMargin" secondItem="96626" secondAttribute="trailing" constant="132"/>
+                            <constraint id="98117" firstItem="96627" firstAttribute="top" secondItem="96626" secondAttribute="bottom" constant="8"/>
+                            <constraint id="98118" firstItem="96627" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="98119" firstItem="66973" firstAttribute="trailingMargin" secondItem="96627" secondAttribute="trailing" constant="10"/>
+                            <constraint id="98349" firstItem="96629" firstAttribute="top" secondItem="96627" secondAttribute="bottom" constant="8"/>
+                            <constraint id="98350" firstItem="96629" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="98351" firstItem="66973" firstAttribute="trailingMargin" secondItem="96629" secondAttribute="trailing" constant="102"/>
+                            <constraint id="98584" firstItem="96630" firstAttribute="top" secondItem="96629" secondAttribute="bottom" constant="1"/>
+                            <constraint id="98585" firstItem="96630" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="98586" firstItem="66973" firstAttribute="trailingMargin" secondItem="96630" secondAttribute="trailing" constant="281"/>
+                            <constraint id="98825" firstItem="96631" firstAttribute="top" secondItem="96630" secondAttribute="top" constant="15"/>
+                            <constraint id="98826" firstItem="96631" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="98827" firstItem="66973" firstAttribute="trailingMargin" secondItem="96631" secondAttribute="trailing" constant="281"/>
+                            <constraint id="98828" firstItem="96632" firstAttribute="top" secondItem="96630" secondAttribute="top" constant="30"/>
+                            <constraint id="98829" firstItem="96632" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="98830" firstItem="66973" firstAttribute="trailingMargin" secondItem="96632" secondAttribute="trailing" constant="281"/>
+                            <constraint id="98831" firstItem="96634" firstAttribute="top" secondItem="96630" secondAttribute="top" constant="45"/>
+                            <constraint id="98832" firstItem="96634" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="98833" firstItem="66973" firstAttribute="trailingMargin" secondItem="96634" secondAttribute="trailing" constant="281"/>
+                            <constraint id="98834" firstItem="96633" firstAttribute="top" secondItem="96630" secondAttribute="top" constant="60"/>
+                            <constraint id="98835" firstItem="96633" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="98836" firstItem="66973" firstAttribute="trailingMargin" secondItem="96633" secondAttribute="trailing" constant="281"/>
+                            <constraint id="98837" firstItem="96635" firstAttribute="top" secondItem="96630" secondAttribute="top" constant="75"/>
+                            <constraint id="98838" firstItem="96635" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="98839" firstItem="66973" firstAttribute="trailingMargin" secondItem="96635" secondAttribute="trailing" constant="281"/>
+                            <constraint id="98840" firstItem="96641" firstAttribute="top" secondItem="96629" secondAttribute="bottom" constant="1"/>
+                            <constraint id="98841" firstItem="96641" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="76"/>
+                            <constraint id="98842" firstItem="66973" firstAttribute="trailingMargin" secondItem="96641" secondAttribute="trailing" constant="210"/>
+                            <constraint id="98843" firstItem="96640" firstAttribute="top" secondItem="96641" secondAttribute="top" constant="15"/>
+                            <constraint id="98844" firstItem="96640" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="76"/>
+                            <constraint id="98845" firstItem="66973" firstAttribute="trailingMargin" secondItem="96640" secondAttribute="trailing" constant="210"/>
+                            <constraint id="99102" firstItem="96639" firstAttribute="top" secondItem="96641" secondAttribute="top" constant="30"/>
+                            <constraint id="99103" firstItem="96639" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="76"/>
+                            <constraint id="99104" firstItem="66973" firstAttribute="trailingMargin" secondItem="96639" secondAttribute="trailing" constant="210"/>
+                            <constraint id="99105" firstItem="96638" firstAttribute="top" secondItem="96641" secondAttribute="top" constant="45"/>
+                            <constraint id="99106" firstItem="96638" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="76"/>
+                            <constraint id="99107" firstItem="66973" firstAttribute="trailingMargin" secondItem="96638" secondAttribute="trailing" constant="210"/>
+                            <constraint id="99108" firstItem="96637" firstAttribute="top" secondItem="96641" secondAttribute="top" constant="60"/>
+                            <constraint id="99109" firstItem="96637" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="76"/>
+                            <constraint id="99110" firstItem="66973" firstAttribute="trailingMargin" secondItem="96637" secondAttribute="trailing" constant="210"/>
+                            <constraint id="99376" firstItem="96636" firstAttribute="top" secondItem="96641" secondAttribute="top" constant="75"/>
+                            <constraint id="99377" firstItem="96636" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="76"/>
+                            <constraint id="99378" firstItem="66973" firstAttribute="trailingMargin" secondItem="96636" secondAttribute="trailing" constant="210"/>
+                            <constraint id="99647" firstItem="96642" firstAttribute="top" secondItem="96629" secondAttribute="bottom" constant="1"/>
+                            <constraint id="99648" firstItem="96642" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="170"/>
+                            <constraint id="99649" firstItem="66973" firstAttribute="trailingMargin" secondItem="96642" secondAttribute="trailing" constant="116"/>
+                            <constraint id="99650" firstItem="96643" firstAttribute="top" secondItem="96642" secondAttribute="top" constant="15"/>
+                            <constraint id="99651" firstItem="96643" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="170"/>
+                            <constraint id="99653" firstItem="66973" firstAttribute="trailingMargin" secondItem="96643" secondAttribute="trailing" constant="121"/>
+                            <constraint id="99654" firstItem="96644" firstAttribute="top" secondItem="96642" secondAttribute="top" constant="30"/>
+                            <constraint id="99655" firstItem="96644" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="170"/>
+                            <constraint id="99656" firstItem="66973" firstAttribute="trailingMargin" secondItem="96644" secondAttribute="trailing" constant="121"/>
+                            <constraint id="99657" firstItem="96645" firstAttribute="top" secondItem="96642" secondAttribute="top" constant="45"/>
+                            <constraint id="99658" firstItem="96645" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="170"/>
+                            <constraint id="99659" firstItem="66973" firstAttribute="trailingMargin" secondItem="96645" secondAttribute="trailing" constant="121"/>
+                            <constraint id="99940" firstItem="96646" firstAttribute="top" secondItem="96642" secondAttribute="top" constant="60"/>
+                            <constraint id="99941" firstItem="96646" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="170"/>
+                            <constraint id="99942" firstItem="66973" firstAttribute="trailingMargin" secondItem="96646" secondAttribute="trailing" constant="121"/>
+                            <constraint id="99943" firstItem="96647" firstAttribute="top" secondItem="96642" secondAttribute="top" constant="75"/>
+                            <constraint id="99944" firstItem="96647" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="170"/>
+                            <constraint id="99945" firstItem="66973" firstAttribute="trailingMargin" secondItem="96647" secondAttribute="trailing" constant="121"/>
+                            <constraint id="100232" firstItem="96653" firstAttribute="top" secondItem="96629" secondAttribute="bottom" constant="1"/>
+                            <constraint id="100233" firstItem="96653" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="236"/>
+                            <constraint id="100234" firstItem="66973" firstAttribute="trailingMargin" secondItem="96653" secondAttribute="trailing" constant="50"/>
+                            <constraint id="100235" firstItem="96652" firstAttribute="top" secondItem="96653" secondAttribute="top" constant="15"/>
+                            <constraint id="100236" firstItem="96652" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="236"/>
+                            <constraint id="100237" firstItem="66973" firstAttribute="trailingMargin" secondItem="96652" secondAttribute="trailing" constant="50"/>
+                            <constraint id="100238" firstItem="96651" firstAttribute="top" secondItem="96653" secondAttribute="top" constant="30"/>
+                            <constraint id="100239" firstItem="96651" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="236"/>
+                            <constraint id="100240" firstItem="66973" firstAttribute="trailingMargin" secondItem="96651" secondAttribute="trailing" constant="50"/>
+                            <constraint id="100241" firstItem="96650" firstAttribute="top" secondItem="96653" secondAttribute="top" constant="45"/>
+                            <constraint id="100242" firstItem="96650" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="236"/>
+                            <constraint id="100243" firstItem="66973" firstAttribute="trailingMargin" secondItem="96650" secondAttribute="trailing" constant="50"/>
+                            <constraint id="100244" firstItem="96649" firstAttribute="top" secondItem="96653" secondAttribute="top" constant="60"/>
+                            <constraint id="100245" firstItem="96649" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="236"/>
+                            <constraint id="100246" firstItem="66973" firstAttribute="trailingMargin" secondItem="96649" secondAttribute="trailing" constant="50"/>
+                            <constraint id="100247" firstItem="96648" firstAttribute="top" secondItem="96653" secondAttribute="top" constant="75"/>
+                            <constraint id="100248" firstItem="66973" firstAttribute="trailingMargin" secondItem="96648" secondAttribute="trailing" constant="50"/>
+                            <constraint id="100249" firstItem="96648" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="236"/>
+                            <constraint id="100554" firstItem="97057" firstAttribute="top" secondItem="96635" secondAttribute="bottom" constant="3"/>
+                            <constraint id="100555" firstItem="97057" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="8"/>
+                            <constraint id="100556" firstItem="66973" firstAttribute="trailingMargin" secondItem="97057" secondAttribute="trailing" constant="177"/>
+                            <constraint id="100557" firstItem="97056" firstAttribute="top" secondItem="97057" secondAttribute="bottom"/>
+                            <constraint id="100558" firstItem="97056" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="100559" firstItem="66973" firstAttribute="trailingMargin" secondItem="97056" secondAttribute="trailing" constant="252"/>
+                            <constraint id="100560" firstItem="97055" firstAttribute="top" secondItem="97057" secondAttribute="bottom"/>
+                            <constraint id="100561" firstItem="97055" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="64"/>
+                            <constraint id="100562" firstItem="66973" firstAttribute="trailingMargin" secondItem="97055" secondAttribute="trailing" constant="238"/>
+                            <constraint id="100563" firstItem="97058" firstAttribute="top" secondItem="97057" secondAttribute="bottom" constant="15"/>
+                            <constraint id="100564" firstItem="97058" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="100565" firstItem="66973" firstAttribute="trailingMargin" secondItem="97058" secondAttribute="trailing" constant="252"/>
+                            <constraint id="100882" firstItem="97059" firstAttribute="top" secondItem="97057" secondAttribute="bottom" constant="15"/>
+                            <constraint id="100883" firstItem="97059" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="64"/>
+                            <constraint id="100884" firstItem="66973" firstAttribute="trailingMargin" secondItem="97059" secondAttribute="trailing" constant="238"/>
+                            <constraint id="101205" firstItem="97060" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="8"/>
+                            <constraint id="101206" firstItem="66973" firstAttribute="trailingMargin" secondItem="97060" secondAttribute="trailing" constant="139"/>
+                            <constraint id="101207" firstItem="97060" firstAttribute="bottom" secondItem="97061" secondAttribute="top" constant="1"/>
+                            <constraint id="101208" firstItem="97061" firstAttribute="leading" secondItem="66973" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="101209" firstItem="66973" firstAttribute="trailingMargin" secondItem="97061" secondAttribute="trailing" constant="10"/>
+                            <constraint id="101210" firstItem="97062" firstAttribute="top" secondItem="97061" secondAttribute="bottom" constant="8"/>
+                            <constraint id="101211" firstItem="66973" firstAttribute="leadingMargin" secondItem="97062" secondAttribute="leading" constant="20"/>
+                            <constraint id="101212" firstItem="97062" firstAttribute="trailing" secondItem="66973" secondAttribute="trailingMargin" constant="20"/>
+                            <constraint id="101213" firstItem="97062" firstAttribute="bottom" secondItem="66973" secondAttribute="bottom"/>
+                            <constraint id="102733" firstItem="97058" firstAttribute="centerY" secondItem="97060" secondAttribute="top" constant="-20"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelZamkyHistorie" destination="96628" id="name-outlet-96628"/>
+                        <outlet property="labelZamkyZajimavosti" destination="96627" id="name-outlet-96627"/>
+                        <outlet property="labelZamkyNDLeden" destination="96641" id="name-outlet-96641"/>
+                        <outlet property="labelZamkyNDUnor" destination="96640" id="name-outlet-96640"/>
+                        <outlet property="labelZamkyNDBrezen" destination="96639" id="name-outlet-96639"/>
+                        <outlet property="labelZamkyNDDuben" destination="96638" id="name-outlet-96638"/>
+                        <outlet property="labelZamkyNDKveten" destination="96637" id="name-outlet-96637"/>
+                        <outlet property="labelZamkyNDCerven" destination="96636" id="name-outlet-96636"/>
+                        <outlet property="labelZamkyNDCervenec" destination="96653" id="name-outlet-96653"/>
+                        <outlet property="labelZamkyNDSrpen" destination="96652" id="name-outlet-96652"/>
+                        <outlet property="labelZamkyNDZari" destination="96651" id="name-outlet-96651"/>
+                        <outlet property="labelZamkyNDRijen" destination="96650" id="name-outlet-96650"/>
+                        <outlet property="labelZamkyNDListopad" destination="96649" id="name-outlet-96649"/>
+                        <outlet property="labelZamkyNDProsinec" destination="96648" id="name-outlet-96648"/>
+                        <outlet property="labelZamkyZlev" destination="97059" id="name-outlet-97059"/>
+                        <outlet property="labelZamkySouradnice" destination="97061" id="name-outlet-97061"/>
+                        <outlet property="mapaZamek" destination="97062" id="name-outlet-97062"/>
+                        <outlet property="labelZamkyDosp" destination="97055" id="name-outlet-97055"/>
+                        <outlet property="titleZamek" destination="135872" id="name-outlet-135872"/>
+                    </connections>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <navigationItem title="Title" id="135872" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="66974" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2163" y="-503"/>
+        </scene>
+        <scene sceneID="68026">
+            <objects>
+                <viewController id="68027" sceneMemberID="viewController" customClass="HradDetailViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="68024"/>
+                        <viewControllerLayoutGuide type="bottom" id="68025"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="68028">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Historie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75489" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="28" y="76" width="144" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="77940" firstItem="75489" firstAttribute="width" constant="144"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75490" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="0" misplaced="YES">
+                                <rect key="frame" x="30" y="98" width="354" height="106"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zajímavosti" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75491" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="204" width="232" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="77941" firstItem="75491" firstAttribute="width" constant="232"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75492" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="0" misplaced="YES">
+                                <rect key="frame" x="30" y="233" width="354" height="72"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Návštěvní doba" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75493" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="0" misplaced="YES">
+                                <rect key="frame" x="30" y="313" width="264" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="77944" firstItem="75493" firstAttribute="width" constant="264"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leden:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75494" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="335" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75495" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="96" y="335" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Březen:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75496" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="365" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75497" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="96" y="365" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duben:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75498" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="380" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75499" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="96" y="380" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Květen:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75500" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="395" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75501" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="96" y="395" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Únor:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75502" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="350" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75503" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="96" y="350" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Červen:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75504" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="410" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75505" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="96" y="410" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Září:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75506" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="190" y="365" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Srpen:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75507" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="190" y="350" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Říjen:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75508" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="190" y="380" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Červenec:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75509" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="190" y="335" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prosinec:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75510" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="190" y="410" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listopad:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75511" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="190" y="395" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75512" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="256" y="365" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75513" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="256" y="350" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75514" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="256" y="395" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75515" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="256" y="335" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75516" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="256" y="410" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75517" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="256" y="380" width="88" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vstupné" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75518" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="28" y="434" width="189" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dospělý:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75519" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="455" width="112" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75615" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="84" y="455" width="72" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zlevněný:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75616" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="470" width="112" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75617" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="84" y="470" width="72" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Souřadnice" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75715" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="28" y="489" width="227" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75716" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="30" y="509" width="354" height="21"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="127956" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="0.0" y="528" width="414" height="208"/>
+                            </mapView>
+                        </subviews>
+                        <constraints>
+                            <constraint id="76412" firstItem="75490" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="76414" firstItem="68028" firstAttribute="trailingMargin" secondItem="75490" secondAttribute="trailing" constant="10"/>
+                            <constraint id="76419" firstItem="75491" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="76424" firstItem="75492" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="76425" firstItem="68028" firstAttribute="trailingMargin" secondItem="75492" secondAttribute="trailing" constant="10"/>
+                            <constraint id="76431" firstItem="75493" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="76434" firstItem="75491" firstAttribute="top" secondItem="75490" secondAttribute="bottom" constant="15"/>
+                            <constraint id="76870" firstItem="75489" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="8"/>
+                            <constraint id="76872" firstItem="75489" firstAttribute="top" secondItem="68024" secondAttribute="bottom" constant="12"/>
+                            <constraint id="76873" firstItem="75490" firstAttribute="top" secondItem="75489" secondAttribute="bottom" constant="1"/>
+                            <constraint id="76875" firstItem="68028" firstAttribute="trailingMargin" secondItem="75494" secondAttribute="trailing" constant="281"/>
+                            <constraint id="76876" firstItem="75494" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="76881" firstItem="75502" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="76882" firstItem="68028" firstAttribute="trailingMargin" secondItem="75502" secondAttribute="trailing" constant="281"/>
+                            <constraint id="76884" firstItem="68028" firstAttribute="trailingMargin" secondItem="75496" secondAttribute="trailing" constant="281"/>
+                            <constraint id="76885" firstItem="75496" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="76891" firstItem="75498" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="76892" firstItem="68028" firstAttribute="trailingMargin" secondItem="75498" secondAttribute="trailing" constant="281"/>
+                            <constraint id="76896" firstItem="75500" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="76897" firstItem="68028" firstAttribute="trailingMargin" secondItem="75500" secondAttribute="trailing" constant="281"/>
+                            <constraint id="76898" firstItem="75504" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="76899" firstItem="68028" firstAttribute="trailingMargin" secondItem="75504" secondAttribute="trailing" constant="281"/>
+                            <constraint id="77939" firstItem="68028" firstAttribute="trailingMargin" secondItem="75489" secondAttribute="trailing" constant="222"/>
+                            <constraint id="77942" firstItem="68028" firstAttribute="trailingMargin" secondItem="75491" secondAttribute="trailing" constant="132"/>
+                            <constraint id="77943" firstItem="68028" firstAttribute="trailingMargin" secondItem="75493" secondAttribute="trailing" constant="100"/>
+                            <constraint id="78492" firstItem="75492" firstAttribute="top" secondItem="75491" secondAttribute="bottom" constant="8"/>
+                            <constraint id="78495" firstItem="75493" firstAttribute="top" secondItem="75492" secondAttribute="bottom" constant="15"/>
+                            <constraint id="79037" firstItem="75494" firstAttribute="top" secondItem="75493" secondAttribute="bottom"/>
+                            <constraint id="79041" firstItem="75502" firstAttribute="top" secondItem="75494" secondAttribute="top" constant="15"/>
+                            <constraint id="79042" firstItem="75496" firstAttribute="top" secondItem="75494" secondAttribute="top" constant="30"/>
+                            <constraint id="79201" firstItem="75498" firstAttribute="top" secondItem="75494" secondAttribute="top" constant="45"/>
+                            <constraint id="79357" firstItem="75500" firstAttribute="top" secondItem="75494" secondAttribute="top" constant="60"/>
+                            <constraint id="79358" firstItem="75504" firstAttribute="top" secondItem="75494" secondAttribute="top" constant="75"/>
+                            <constraint id="79513" firstItem="75495" firstAttribute="top" secondItem="75493" secondAttribute="bottom"/>
+                            <constraint id="79516" firstItem="75503" firstAttribute="top" secondItem="75495" secondAttribute="top" constant="15"/>
+                            <constraint id="79517" firstItem="68028" firstAttribute="trailingMargin" secondItem="75503" secondAttribute="trailing" constant="198"/>
+                            <constraint id="79674" firstItem="75497" firstAttribute="top" secondItem="75495" secondAttribute="top" constant="30"/>
+                            <constraint id="79676" firstItem="68028" firstAttribute="trailingMargin" secondItem="75497" secondAttribute="trailing" constant="198"/>
+                            <constraint id="79991" firstItem="75499" firstAttribute="top" secondItem="75495" secondAttribute="top" constant="45"/>
+                            <constraint id="79993" firstItem="68028" firstAttribute="trailingMargin" secondItem="75499" secondAttribute="trailing" constant="198"/>
+                            <constraint id="80151" firstItem="75501" firstAttribute="top" secondItem="75495" secondAttribute="top" constant="60"/>
+                            <constraint id="80152" firstItem="68028" firstAttribute="trailingMargin" secondItem="75501" secondAttribute="trailing" constant="198"/>
+                            <constraint id="80312" firstItem="75505" firstAttribute="top" secondItem="75495" secondAttribute="top" constant="75"/>
+                            <constraint id="80313" firstItem="68028" firstAttribute="trailingMargin" secondItem="75505" secondAttribute="trailing" constant="198"/>
+                            <constraint id="80474" firstItem="75509" firstAttribute="top" secondItem="75493" secondAttribute="bottom"/>
+                            <constraint id="80475" firstItem="75509" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="160"/>
+                            <constraint id="80477" firstItem="75507" firstAttribute="top" secondItem="75509" secondAttribute="top" constant="15"/>
+                            <constraint id="80478" firstItem="75507" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="160"/>
+                            <constraint id="80480" firstItem="75506" firstAttribute="top" secondItem="75509" secondAttribute="top" constant="30"/>
+                            <constraint id="80481" firstItem="75506" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="160"/>
+                            <constraint id="80482" firstItem="68028" firstAttribute="trailingMargin" secondItem="75506" secondAttribute="trailing" constant="121"/>
+                            <constraint id="80483" firstItem="75508" firstAttribute="top" secondItem="75509" secondAttribute="top" constant="45"/>
+                            <constraint id="80484" firstItem="75508" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="160"/>
+                            <constraint id="80485" firstItem="68028" firstAttribute="trailingMargin" secondItem="75508" secondAttribute="trailing" constant="121"/>
+                            <constraint id="80657" firstItem="75511" firstAttribute="top" secondItem="75509" secondAttribute="top" constant="60"/>
+                            <constraint id="80658" firstItem="75511" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="160"/>
+                            <constraint id="80659" firstItem="68028" firstAttribute="trailingMargin" secondItem="75511" secondAttribute="trailing" constant="121"/>
+                            <constraint id="80834" firstItem="75510" firstAttribute="top" secondItem="75509" secondAttribute="top" constant="75"/>
+                            <constraint id="80835" firstItem="75510" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="160"/>
+                            <constraint id="80836" firstItem="68028" firstAttribute="trailingMargin" secondItem="75510" secondAttribute="trailing" constant="121"/>
+                            <constraint id="81014" firstItem="75515" firstAttribute="top" secondItem="75493" secondAttribute="bottom"/>
+                            <constraint id="81017" firstItem="75513" firstAttribute="top" secondItem="75515" secondAttribute="top" constant="15"/>
+                            <constraint id="81203" firstItem="75512" firstAttribute="top" secondItem="75515" secondAttribute="top" constant="30"/>
+                            <constraint id="81392" firstItem="75517" firstAttribute="top" secondItem="75515" secondAttribute="top" constant="45"/>
+                            <constraint id="81394" firstItem="75517" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="236"/>
+                            <constraint id="81584" firstItem="75514" firstAttribute="top" secondItem="75515" secondAttribute="top" constant="60"/>
+                            <constraint id="81779" firstItem="75516" firstAttribute="top" secondItem="75515" secondAttribute="top" constant="75"/>
+                            <constraint id="81977" firstItem="75518" firstAttribute="top" secondItem="75504" secondAttribute="bottom" constant="4"/>
+                            <constraint id="81979" firstItem="75518" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="8"/>
+                            <constraint id="81980" firstItem="75518" firstAttribute="bottom" secondItem="75519" secondAttribute="top" constant="1"/>
+                            <constraint id="82180" firstItem="75518" firstAttribute="bottom" secondItem="75519" secondAttribute="top" constant="1"/>
+                            <constraint id="82182" firstItem="75519" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="82183" firstItem="75616" firstAttribute="top" secondItem="75519" secondAttribute="top" constant="15"/>
+                            <constraint id="82184" firstItem="75616" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="82187" firstItem="75518" firstAttribute="bottom" secondItem="75615" secondAttribute="top" constant="1"/>
+                            <constraint id="82193" firstItem="75617" firstAttribute="top" secondItem="75615" secondAttribute="top" constant="15"/>
+                            <constraint id="82406" firstItem="75616" firstAttribute="bottom" secondItem="75715" secondAttribute="top" constant="1"/>
+                            <constraint id="82407" firstItem="75715" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="8"/>
+                            <constraint id="82409" firstItem="75715" firstAttribute="bottom" secondItem="75716" secondAttribute="top" constant="1"/>
+                            <constraint id="82410" firstItem="75715" firstAttribute="bottom" secondItem="75716" secondAttribute="top" constant="1"/>
+                            <constraint id="82411" firstItem="75716" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="10"/>
+                            <constraint id="82412" firstItem="68028" firstAttribute="trailingMargin" secondItem="75716" secondAttribute="trailing" constant="10"/>
+                            <constraint id="83057" firstItem="68028" firstAttribute="trailingMargin" secondItem="75518" secondAttribute="trailing" constant="177"/>
+                            <constraint id="83731" firstItem="68028" firstAttribute="trailingMargin" secondItem="75509" secondAttribute="trailing" constant="116"/>
+                            <constraint id="83732" firstItem="68028" firstAttribute="trailingMargin" secondItem="75507" secondAttribute="trailing" constant="121"/>
+                            <constraint id="83733" firstItem="68028" firstAttribute="trailingMargin" secondItem="75495" secondAttribute="trailing" constant="198"/>
+                            <constraint id="84173" firstItem="68028" firstAttribute="trailingMargin" secondItem="75617" secondAttribute="trailing" constant="212"/>
+                            <constraint id="84390" firstItem="68028" firstAttribute="trailingMargin" secondItem="75715" secondAttribute="trailing" constant="139"/>
+                            <constraint id="85240" firstItem="75495" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="76"/>
+                            <constraint id="85241" firstItem="75503" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="76"/>
+                            <constraint id="85242" firstItem="75497" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="76"/>
+                            <constraint id="85243" firstItem="75499" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="76"/>
+                            <constraint id="85244" firstItem="75501" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="76"/>
+                            <constraint id="85245" firstItem="75505" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="76"/>
+                            <constraint id="85247" firstItem="75515" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="236"/>
+                            <constraint id="86118" firstItem="75513" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="236"/>
+                            <constraint id="86336" firstItem="75512" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="236"/>
+                            <constraint id="86771" firstItem="75514" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="236"/>
+                            <constraint id="87426" firstItem="75516" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="236"/>
+                            <constraint id="88296" firstItem="68028" firstAttribute="trailingMargin" secondItem="75515" secondAttribute="trailing" constant="50"/>
+                            <constraint id="88513" firstItem="68028" firstAttribute="trailingMargin" secondItem="75513" secondAttribute="trailing" constant="50"/>
+                            <constraint id="88730" firstItem="68028" firstAttribute="trailingMargin" secondItem="75512" secondAttribute="trailing" constant="50"/>
+                            <constraint id="88947" firstItem="68028" firstAttribute="trailingMargin" secondItem="75517" secondAttribute="trailing" constant="50"/>
+                            <constraint id="89164" firstItem="68028" firstAttribute="trailingMargin" secondItem="75514" secondAttribute="trailing" constant="50"/>
+                            <constraint id="89381" firstItem="68028" firstAttribute="trailingMargin" secondItem="75516" secondAttribute="trailing" constant="50"/>
+                            <constraint id="89598" firstItem="68028" firstAttribute="trailingMargin" secondItem="75519" secondAttribute="trailing" constant="252"/>
+                            <constraint id="89816" firstItem="68028" firstAttribute="trailingMargin" secondItem="75616" secondAttribute="trailing" constant="252"/>
+                            <constraint id="90250" firstItem="75615" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="64"/>
+                            <constraint id="90251" firstItem="68028" firstAttribute="trailingMargin" secondItem="75615" secondAttribute="trailing" constant="238"/>
+                            <constraint id="90686" firstItem="75617" firstAttribute="leading" secondItem="68028" secondAttribute="leadingMargin" constant="64"/>
+                            <constraint id="127957" firstItem="68028" firstAttribute="leadingMargin" secondItem="127956" secondAttribute="leading" constant="20"/>
+                            <constraint id="127958" firstItem="127956" firstAttribute="bottom" secondItem="68028" secondAttribute="bottom"/>
+                            <constraint id="127959" firstItem="127956" firstAttribute="trailing" secondItem="68028" secondAttribute="trailingMargin" constant="20"/>
+                            <constraint id="127960" firstItem="75716" firstAttribute="bottom" secondItem="127956" secondAttribute="top" constant="-8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelHradHistorie" destination="75490" id="name-outlet-75490"/>
+                        <outlet property="labelHradZajimavosti" destination="75492" id="name-outlet-75492"/>
+                        <outlet property="labelHradNDLeden" destination="75495" id="name-outlet-75495"/>
+                        <outlet property="labelHradNDUnor" destination="75503" id="name-outlet-75503"/>
+                        <outlet property="labelHradNDBrezen" destination="75497" id="name-outlet-75497"/>
+                        <outlet property="labelHradNDDuben" destination="75499" id="name-outlet-75499"/>
+                        <outlet property="labelHradNDCerven" destination="75505" id="name-outlet-75505"/>
+                        <outlet property="labelHradNDKveten" destination="75501" id="name-outlet-75501"/>
+                        <outlet property="labelHradNDCervenec" destination="75515" id="name-outlet-75515"/>
+                        <outlet property="labelHradNDSrpen" destination="75513" id="name-outlet-75513"/>
+                        <outlet property="labelHradNDZari" destination="75512" id="name-outlet-75512"/>
+                        <outlet property="labelHradNDRijen" destination="75517" id="name-outlet-75517"/>
+                        <outlet property="labelHradNDListopad" destination="75514" id="name-outlet-75514"/>
+                        <outlet property="labelHradNDProsinec" destination="75516" id="name-outlet-75516"/>
+                        <outlet property="labelHradVstupDosp" destination="75615" id="name-outlet-75615"/>
+                        <outlet property="labelHradVstupZlev" destination="75617" id="name-outlet-75617"/>
+                        <outlet property="labelHradSouradnice" destination="75716" id="name-outlet-75716"/>
+                        <outlet property="mapaHrad" destination="127956" id="name-outlet-127956"/>
+                        <outlet property="titleHrad" destination="135017" id="name-outlet-135017"/>
+                    </connections>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <navigationItem title="Title" id="135017" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="68029" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2148" y="-1309"/>
+        </scene>
+        <scene sceneID="71821">
+            <objects>
+                <tabBarController id="71822" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="71825">
+                        <rect key="frame" x="0.0" y="687" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue id="72194" destination="1285" kind="relationship" relationship="viewControllers"/>
+                        <segue id="72285" destination="322" kind="relationship" relationship="viewControllers"/>
+                        <segue id="72352" destination="1379" kind="relationship" relationship="viewControllers"/>
+                        <segue id="72481" destination="17018" kind="relationship" relationship="viewControllers"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="71826" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="953" y="-484"/>
+        </scene>
+        <scene sceneID="72501">
+            <objects>
+                <tabBarController id="72502" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="72505">
+                        <rect key="frame" x="0.0" y="687" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue id="72658" destination="1379" kind="relationship" relationship="viewControllers"/>
+                        <segue id="72751" destination="322" kind="relationship" relationship="viewControllers"/>
+                        <segue id="72818" destination="1285" kind="relationship" relationship="viewControllers"/>
+                        <segue id="72857" destination="17018" kind="relationship" relationship="viewControllers"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="72506" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="75815" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                    <rect key="frame" x="2633" y="-781" width="414" height="203"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </mapView>
+            </objects>
+            <point key="canvasLocation" x="943" y="337"/>
+        </scene>
+        <scene sceneID="72877">
+            <objects>
+                <tabBarController id="72878" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="72881">
+                        <rect key="frame" x="0.0" y="687" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue id="72924" destination="17018" kind="relationship" relationship="viewControllers"/>
+                        <segue id="73120" destination="322" kind="relationship" relationship="viewControllers"/>
+                        <segue id="73213" destination="1285" kind="relationship" relationship="viewControllers"/>
+                        <segue id="73274" destination="1379" kind="relationship" relationship="viewControllers"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="72882" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940" y="1173"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="images/LunchingScreen.jpg" width="768" height="1024"/>
+        <image name="images/Uvod.jpg" width="1024" height="768"/>
+        <image name="images/TabBar/castle.png" width="25" height="25"/>
+        <image name="images/TabBar/palace.png" width="25" height="25"/>
+        <image name="images/TabBar/about.png" width="25" height="25"/>
+        <image name="images/TabBar/mapa.png" width="25" height="25"/>
+    </resources>
+</document>
